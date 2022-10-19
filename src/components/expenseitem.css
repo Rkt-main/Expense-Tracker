@@ -1,0 +1,31 @@
+.expense-container {
+  margin: 12px;
+}
+
+.expenseitem-box {
+  width: 60%;
+  margin: auto !important;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: dimgray;
+  border-radius: 10px;
+}
+
+.expense-title{
+  font-size: 21px;
+}
+
+.expense-title {
+  font-weight: 400 !important;
+}
+
+.expenseitem-box .expense-amount {
+  font-size: large;
+  color: black;
+  padding: 8px;
+  font-weight: 600;
+  background-color: #a892ee;
+  border-radius: 4px;
+}
